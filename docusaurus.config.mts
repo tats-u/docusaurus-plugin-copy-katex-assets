@@ -40,6 +40,10 @@ const config: Config = {
 
   future: {
     experimental_faster: !isSlower,
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+      useCssCascadeLayers: true,
+    },
   },
 
   // Even if you don't use internationalization, you can use this field to set
