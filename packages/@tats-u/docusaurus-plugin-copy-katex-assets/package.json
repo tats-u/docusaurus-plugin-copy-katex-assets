@@ -40,9 +40,6 @@
   "peerDependenciesMeta": {
     "copy-webpack-plugin": {
       "optional": true
-    },
-    "@docusaurus/faster": {
-      "optional": true
     }
   }
 }
