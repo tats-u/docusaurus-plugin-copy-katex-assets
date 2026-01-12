@@ -5,7 +5,11 @@
   "description": "Docusaurus plugin to copy KaTeX assets",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "LICENSE", "README.md"],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "exports": {
     "types": "./dist/index.d.ts",
     "default": "./dist/index.js"
@@ -15,7 +19,12 @@
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["docusaurus", "docusaurus-plugin", "katex", "math"],
+  "keywords": [
+    "docusaurus",
+    "docusaurus-plugin",
+    "katex",
+    "math"
+  ],
   "author": "Tatsunori Uchino <tats.u@live.jp>",
   "bugs": {
     "url": "https://github.com/tats-u/docusaurus-plugin-copy-katex-assets/issues"
@@ -28,10 +37,10 @@
   "license": "MIT",
   "packageManager": "pnpm@10.6.4",
   "devDependencies": {
-    "@docusaurus/faster": "3.8.1",
-    "@docusaurus/types": "3.8.1",
-    "tsup": "^8.4.0",
-    "typescript": "~5.8.3"
+    "@docusaurus/faster": "3.9.2",
+    "@docusaurus/types": "3.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "~5.9.3"
   },
   "peerDependencies": {
     "@docusaurus/types": "*",
