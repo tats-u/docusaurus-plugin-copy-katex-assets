@@ -22,10 +22,10 @@
     "@mdx-js/react": "^3.1.1",
     "@tats-u/docusaurus-plugin-copy-katex-assets": "workspace:*",
     "clsx": "^2.1.1",
-    "katex": "^0.16.27",
+    "katex": "^0.16.47",
     "prism-react-renderer": "^2.4.1",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0"
   },
@@ -39,7 +39,11 @@
     "typescript": "~5.9.3"
   },
   "browserslist": {
-    "production": [">0.5%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 3 chrome version",
       "last 3 firefox version",
