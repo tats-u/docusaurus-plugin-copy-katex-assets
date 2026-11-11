@@ -22,7 +22,7 @@
     "@mdx-js/react": "^3.1.1",
     "@tats-u/docusaurus-plugin-copy-katex-assets": "workspace:*",
     "clsx": "^2.1.1",
-    "katex": "^0.16.47",
+    "katex": "^0.18.2",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
@@ -39,11 +39,7 @@
     "typescript": "~5.9.3"
   },
   "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.5%", "not dead", "not op_mini all"],
     "development": [
       "last 3 chrome version",
       "last 3 firefox version",
@@ -53,5 +49,5 @@
   "engines": {
     "node": ">=18.0"
   },
-  "packageManager": "pnpm@12.6.0"
+  "packageManager": "pnpm@12.18.0"
 }
