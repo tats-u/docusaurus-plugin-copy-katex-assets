@@ -25,3 +25,8 @@ overrides:
   katex@^0.16: ^0.18.2
   # Webpackbar 7 separates its options from ProgressPlugin's validated options.
   '@docusaurus/bundler@^3.9.2>webpackbar@^6': ^7.0.0
+auditConfig:
+  # deepmerge false positive; CVE-2026-93753 was rejected.
+  # https://github.com/github/advisory-database/issues/10910
+  ignoreGhsas:
+    - GHSA-gcqx-w48m-w2h4
