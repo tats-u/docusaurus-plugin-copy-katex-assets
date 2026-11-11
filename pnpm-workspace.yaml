@@ -23,3 +23,5 @@ overrides:
   # Keep the test site's renderer and copied CSS on the same KaTeX version.
   # The site uses neither __defineFunction nor custom internal CSS selectors.
   katex@^0.16: ^0.18.2
+  # Webpackbar 7 separates its options from ProgressPlugin's validated options.
+  '@docusaurus/bundler@^3.9.2>webpackbar@^6': ^7.0.0
